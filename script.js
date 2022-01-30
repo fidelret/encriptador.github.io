@@ -87,4 +87,3 @@ function desEncriptar(texto) {
         copiarText.select();
         document.execCommand("copy");
 }); 
-    
