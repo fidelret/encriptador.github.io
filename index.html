@@ -11,23 +11,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="titulo">Encriptador de texto</h1>
+  <h1 class="titulo"><img src="alura.png" alt="logo Alura" id="alura">Encriptador de texto<img src="one.png" alt="Logo ONE" id="one"></h1>
   <main class="main">
     <section class="form box">
       <form id="cifrador" autocomplete="off">
         <h2 id="titulo2">Sólo letras minúsculas. <br>Sin acento</h2>
           <label for="input-texto"></label>
-          <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
-          <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
-          <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+          <input class="text-input" type="text" name="input-texto" id="textoCodDec" placeholder="Ingrese el texto aquí">
+          <input class="btn" type="submit" value="encriptar!" id="botonCodificar">
+          <input class="btn" type="submit" value="desencriptar!" id="botonDecodificar">
           <input class="btn" type="reset" value="limpiar" id="btn-limpiar">
           <h2 id="titulo2">Mensaje encriptado:</h2>
-          <input class="text-input" type="text" id="msg"></input>
+          <input class="text-input" type="text" id="output"></input>
           <input class="btn" type="submit" value="copiar" id="btn-copy">
       </form>
     </section>
   </main>
-  <footer id="footer">Felix Martín Retes. 2022.-</footer>
+  <footer id="footer">Felix Martín Retes. 2022 (fidelret) <a href="https://github.com/fidelret" title="Perfil en GitHub">
+      <img id="gh" alt="GitHub" src="gh.png"/></a> </footer>
   <script src="script.js"></script>
 </body>
 </html>

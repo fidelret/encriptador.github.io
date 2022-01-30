@@ -53,6 +53,7 @@ padding: 15px 0px 0px 0px;
   color: rgb(114, 114, 184);
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(114, 114, 184);
+  box-shadow: 5px 5px 5px 5px rgba(114, 114, 184, 0.3);
 }
 
 .text-input {
@@ -78,5 +79,27 @@ background-color: rgb(220, 220, 255);
   margin: 30px auto;
   color: rgb(255, 255, 255);
   text-align:center;
-  background-color: rgb(114, 114, 184);; 
+  background-color: rgb(114, 114, 184);
 }
+
+#alura {
+  float: left;
+  width: 33px;
+  }
+
+#one {
+  float: right;
+  width: 75px;
+   }
+
+#gh {
+  float: center;
+  width: 25px;
+    }
+
+#gh:hover {
+  float: center;
+  border-radius: 0.5em;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px 5px rgba(30, 30, 97, 0.3);
+}      
